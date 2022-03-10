@@ -55,5 +55,5 @@ void count_numbers(int array[4][4]){
     std::cout << ";6:"<< num_six;
     std::cout << ";7:"<< num_seven;
     std::cout << ";8:"<< num_eight;
-    std::cout << "9:"<< num_nine << std::endl;
+    std::cout << "9:"<< num_nine << ";" << std::endl;
 }
