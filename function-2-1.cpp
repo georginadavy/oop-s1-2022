@@ -18,8 +18,8 @@ void print_as_binary(std::string decimal_number){
             n = (n-1)/2;
         }
     }
-    //for(int i = x-1;i >= 0;i--){
-        // std::cout << array[i];
-    //}
+    for(int i = x-1;i >= 0;i--){
+        std::cout << array[i];
+    }
 }
 
