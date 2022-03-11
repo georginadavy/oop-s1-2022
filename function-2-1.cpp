@@ -20,6 +20,6 @@ void print_as_binary(std::string decimal_number){
     }
     //for(int i = x-1;i >= 0;i--){
         // std::cout << array[i];
-    }
+    //}
 }
 
