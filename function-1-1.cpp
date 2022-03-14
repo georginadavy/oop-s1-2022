@@ -1,9 +1,14 @@
-int diagonal(int array[4][4]){
-    int sum = 0;
-    for(int i = 0; i < 4; i++){
-        int x = array[i][i];
-        sum = sum + x;
+#include <stdlib.h>
+#include <iostream>
+
+using namespace std;
+
+void printer(int array[10][10]){
+    for(int i = 0;i < 10; i++){
+        for(int j = 0; j < 10; j++){
+            std::cout << array[i][j] << " ";
+        }
+        std::cout << "\n";
     }
-    return sum;
 }
 
