@@ -1,13 +1,12 @@
-#include <iostream>
 #include <stdlib.h>
+#include <iostream>
 
 extern int binary_to_number(int binary_digits[], int number_of_digits);
 
-int main(int argc,char **argv){
+int main(){
     int array[] = {1,0,0,1,0,1,1};
-    int n;
-    n = sizeof(array)/4;
-    std::cout << "Integer value of binary: " << binary_to_number(array, n) << std::endl;
-    std::cout << n << std::endl;
+    int length = sizeof(array)/4;
+
+    std::cout << "The decimal value of the binary array is: " << binary_to_number(array, length) << std::endl;
     return 0;
 }
