@@ -1,10 +1,9 @@
-#include <iostream>
 #include <stdlib.h>
+#include <iostream>
 
-extern void printer(int array[10][10]);
+extern int size_of_variable_star_t();
 
 int main(){
-    int array[10][10] = {{1,0,0,0,0,0,0,0,0,0},{1,0,0,0,0,0,0,0,0,0},{1,0,0,0,0,0,0,0,0,0},{1,0,0,0,0,0,0,0,0,0},{1,0,0,0,0,0,0,0,0,0},{1,0,0,0,0,0,0,0,0,0},{1,0,0,0,0,0,0,0,0,0},{1,0,0,0,0,0,0,0,0,0},{1,0,0,0,0,0,0,0,0,0},{1,0,0,0,0,0,0,0,0,0}};
-    printer(array);
+    std::cout << size_of_variable_star_t() << std::endl;
     return 0;
 }
